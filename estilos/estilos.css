@@ -127,7 +127,7 @@ p {
 }
 
 .navegacion {
-    background-color: #DEDEDE;
+    background: linear-gradient(90deg, rgba(219,219,219,1) 0%, rgba(246,246,246,1) 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -160,7 +160,7 @@ p {
     height: 200px;
     font-family: 'Poppins';
     text-align: center;
-    background-color: aquamarine;
+    background: linear-gradient(90deg, rgba(219,219,219,1) 0%, rgba(246,246,246,1) 100%);
     display: flex;
     justify-content: center;
 }
@@ -184,6 +184,15 @@ margin: 0px 10px 0px 10px;
     border: 1px solid rgb(230, 226, 226);
     border-radius: 5px;
     padding: 10px;
+}
+
+.cardexplore img{
+    height: 216px;
+    transition: height 1s;
+}
+
+.cardexplore  img:hover{
+    height: 220px;
 }
 
 .circle {
@@ -229,9 +238,31 @@ margin: 0px 10px 0px 10px;
     width: 100%;
 }
 
+.image {
+    transform: rotate(15deg);
+}
+
+@keyframes fondoColor {
+    0% {
+        background-color: #FEFEFE
+}
+    100% {
+        background-color: #d3d3d3
+    }
+}
+
+.tituloMasSubtitulo {
+    animation-name: fondoColor;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+
 @media (min-width: 768px) and (max-width: 1200px) {
     .image {
         width: 60%;
+        transform: rotate(15deg);
     }
 
     .grid-blog {
@@ -294,6 +325,7 @@ margin: 0px 10px 0px 10px;
 
     .image {
         width: 60%;
+        transform: rotate(15deg);
     }
 
     .tituloMasSubtitulo {
@@ -352,6 +384,7 @@ margin: 0px 10px 0px 10px;
 
     .image {
         width: 80%;
+        transform: rotate(15deg);
     }
 
     .titleDetail {
