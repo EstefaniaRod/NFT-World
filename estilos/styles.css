@@ -1,0 +1,222 @@
+headerImg {
+  margin: 19px 0px;
+  width: 150px;
+  margin-left: 10px; }
+
+ul {
+  font-family: 'Poppins';
+  font-weight: 600;
+  margin-right: 4%; }
+  ul li {
+    list-style-type: none; }
+    ul li a {
+      color: black;
+      text-decoration: none; }
+
+navegacion {
+  background-color: #DEDEDE;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+menu li {
+  display: inline-block;
+  position: relative;
+  font-size: 14px;
+  padding: 10px; }
+
+button {
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 5px;
+  height: 35px;
+  border: none; }
+  button:hover {
+    color: #fff; }
+
+buttonLogin {
+  width: 80px;
+  color: #fff;
+  background-color: #085e41; }
+
+titleDetail p {
+  font-size: 70px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  height: 90px; }
+
+subtitleDetail p {
+  font-size: 30px;
+  margin-bottom: 20px; }
+
+buttonPrimary {
+  width: 100px;
+  color: #fff;
+  background-color: #085e41;
+  margin-bottom: 50px; }
+  buttonPrimary:hover {
+    color: #fff; }
+
+buttonSecondary {
+  width: 100px;
+  margin-left: 10px;
+  border: 1px solid #373F41;
+  color: #085e41;
+  background-color: #fff; }
+  buttonSecondary:hover {
+    color: #085e41; }
+
+.cardexplore {
+  font-family: 'Poppins';
+  border: 1px solid #e6e2e2;
+  border-radius: 5px;
+  padding: 10px; }
+  .cardexplore .circle {
+    background: rgba(255, 187, 0, 0.877);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px; }
+    .cardexplore .circle .price {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center; }
+      .cardexplore .circle .price .spacingBottom {
+        margin-bottom: 20px; }
+        .cardexplore .circle .price .spacingBottom .grid-explore {
+          display: grid;
+          grid-template-columns: 258px 258px 258px 258px;
+          grid-gap: 20px;
+          margin-bottom: 20px; }
+
+.cardexplore {
+  font-family: 'Poppins';
+  border: 1px solid #e6e2e2;
+  border-radius: 5px;
+  padding: 10px; }
+  .cardexplore .textDescription {
+    font-size: 12px; }
+    .cardexplore .textDescription .imgBlog {
+      width: 100%; }
+      .cardexplore .textDescription .imgBlog .grid-blog {
+        display: grid;
+        grid-template-columns: 350px 350px 350px;
+        grid-gap: 20px;
+        margin-bottom: 20px; }
+
+footerStyle {
+  flex-direction: column;
+  align-items: center;
+  height: 200px;
+  font-family: 'Poppins';
+  text-align: center;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center; }
+  footerStyle .redes {
+    width: 175px;
+    margin-bottom: 20px; }
+    footerStyle .redes .iconStyle {
+      width: 35px;
+      margin: 0px 10px 0px 10px; }
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .image {
+    width: 60%; }
+  .grid-blog {
+    grid-template-columns: 350px; }
+  .tituloMasSubtitulo {
+    display: flex;
+    flex-direction: column; }
+  .cardDetail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .subtitleDetail {
+    text-align: center; }
+  .grid-explore {
+    grid-template-columns: 258px 258px; } }
+
+@media (min-width: 600px) and (max-width: 767px) {
+  .navegacion {
+    flex-direction: column; }
+  .grid-blog {
+    grid-template-columns: 350px; }
+  .headerImg {
+    margin-left: 0px; }
+  .menu li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center; }
+  #login {
+    margin: 0px;
+    margin-bottom: 19px; }
+  ul {
+    margin-right: 0%;
+    margin-bottom: 19px; }
+  .image {
+    width: 60%; }
+  .tituloMasSubtitulo {
+    display: flex;
+    flex-direction: column; }
+  .cardDetail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .subtitleDetail {
+    text-align: center; }
+  .grid-explore {
+    grid-template-columns: 258px 258px; } }
+
+@media (min-width: 320px) and (max-width: 599px) {
+  .navegacion {
+    flex-direction: column; }
+  .grid-blog {
+    grid-template-columns: 350px; }
+  .headerImg {
+    margin-left: 0px; }
+  .menu li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    font-size: 14px;
+    padding: 10px;
+    text-align: center; }
+  #login {
+    margin: 0px;
+    margin-bottom: 19px; }
+  ul {
+    margin-right: 0%;
+    margin-bottom: 19px; }
+  .image {
+    width: 80%; }
+  .titleDetail {
+    font-size: 50px; }
+  .subtitleDetail {
+    font-size: 25px; }
+  .tituloMasSubtitulo {
+    display: flex;
+    flex-direction: column; }
+  .cardDetail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .subtitleDetail {
+    text-align: center; }
+  .grid-explore {
+    grid-template-columns: 258px; }
+  .create-section {
+    width: 300px; }
+  .hidden {
+    display: none; } }

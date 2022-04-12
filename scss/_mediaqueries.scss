@@ -1,0 +1,161 @@
+@media (min-width: 768px) and (max-width: 1200px) {
+    .image {
+        width: 60%;
+    }
+
+    .grid-blog {
+        grid-template-columns: 350px;
+    }
+
+    .tituloMasSubtitulo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardDetail {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subtitleDetail {
+        text-align: center;
+    }
+
+    .grid-explore {
+        grid-template-columns: 258px 258px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    .navegacion {
+        flex-direction: column;
+    }
+
+    .grid-blog {
+        grid-template-columns: 350px;
+    }
+
+    .headerImg {
+        margin-left: 0px;
+    }
+
+    .menu li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #login {
+        margin: 0px;
+        margin-bottom: 19px;
+    }
+
+    ul {
+        margin-right: 0%;
+        margin-bottom: 19px;
+    }
+
+    .image {
+        width: 60%;
+    }
+
+    .tituloMasSubtitulo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardDetail {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subtitleDetail {
+        text-align: center;
+    }
+
+    .grid-explore {
+        grid-template-columns: 258px 258px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 599px) {
+    .navegacion {
+        flex-direction: column;
+    }
+
+    .grid-blog {
+        grid-template-columns: 350px;
+    }
+
+    .headerImg {
+        margin-left: 0px;
+    }
+
+    .menu li {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        font-size: 14px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #login {
+        margin: 0px;
+        margin-bottom: 19px;
+    }
+
+    ul {
+        margin-right: 0%;
+        margin-bottom: 19px;
+    }
+
+    .image {
+        width: 80%;
+    }
+
+    .titleDetail {
+        font-size: 50px;
+    }
+
+    .subtitleDetail {
+        font-size: 25px;
+    }
+
+    .tituloMasSubtitulo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardDetail {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subtitleDetail {
+        text-align: center;
+    }
+
+    .grid-explore {
+        grid-template-columns: 258px;
+    }
+
+    .create-section {
+        width: 300px;
+    }
+
+    .hidden {
+        display: none;
+    }
+}
