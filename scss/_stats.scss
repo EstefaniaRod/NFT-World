@@ -1,0 +1,30 @@
+.section-container {
+    height: 562px;
+}
+
+.table-container {
+    width: 90%;
+
+    .position-content {
+        text-align: end;
+
+        .position-first {
+            text-align: initial;
+
+            .first-content {
+                display: flex;
+                align-items: center;
+
+                p {
+                    margin-bottom: 0px;
+                }
+
+                img {
+                    width: 45px;
+                    padding: 0px 5px 0px 5px;
+                }
+            }
+        }
+    }
+    
+}

@@ -4,7 +4,7 @@
     }
 
     .grid-blog {
-        grid-template-columns: 350px;
+        grid-template-columns: 350px !important;
     }
 
     .tituloMasSubtitulo {
@@ -24,7 +24,7 @@
     }
 
     .grid-explore {
-        grid-template-columns: 258px 258px;
+        grid-template-columns: 258px 258px !important;
     }
 }
 
@@ -34,7 +34,7 @@
     }
 
     .grid-blog {
-        grid-template-columns: 350px;
+        grid-template-columns: 350px !important;
     }
 
     .headerImg {
@@ -82,7 +82,7 @@
     }
 
     .grid-explore {
-        grid-template-columns: 258px 258px;
+        grid-template-columns: 258px 258px !important;
     }
 }
 
@@ -92,7 +92,7 @@
     }
 
     .grid-blog {
-        grid-template-columns: 350px;
+        grid-template-columns: 350px !important;
     }
 
     .headerImg {
@@ -148,7 +148,7 @@
     }
 
     .grid-explore {
-        grid-template-columns: 258px;
+        grid-template-columns: 258px !important;
     }
 
     .create-section {

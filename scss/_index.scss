@@ -1,136 +1,31 @@
-headerImg {
-    margin: 19px 0px;
-    width: 150px;
-    margin-left: 10px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-ul {
-    font-family: 'Poppins';
-    font-weight: 600;
-    margin-right: 4%;
-    li {
-        list-style-type: none;
-        a {
-            color: black;
-            text-decoration: none;
-        }
-    }
+html {
+    font-size: 62, 5%;
 }
 
-navegacion {
-    background-color: $colorNavegacion;
+.tituloMasSubtitulo {
+    margin: 20px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-}
 
-menu li {
-    display: inline-block;
-    position: relative;
-    font-size: 14px;
-    padding: 10px;
-}
+    .cardDetail {
+        width: 50%;
 
-button {
-    cursor: pointer;
-    margin-right: 10px;
-    border-radius: 5px;
-    height: 35px;
-    border: none;
-    &:hover{
-        color: $colorSecundario;
-    }
-}
-
-buttonLogin {
-    width: 80px;
-    color: $colorSecundario;
-    background-color: $colorPrincipal;
-}
-
-titleDetail {
-    p{
-        font-size: $letraGrande;
-        font-family: 'Poppins';
-        font-weight: 600;
-        height: 90px;
-    }
-}
-
-subtitleDetail {
-    p{
-        font-size: $letraChica;
-        margin-bottom: 20px;
-    }
-}
-
-buttonPrimary {
-    width: 100px;
-    color: $colorSecundario;
-    background-color: $colorPrincipal;
-    margin-bottom: 50px;
-    &:hover{
-        color: $colorSecundario;
-    }
-}
-
-buttonSecondary {
-    width: 100px;
-    margin-left: 10px;
-    border: 1px solid #373F41;
-    color: $colorPrincipal;
-    background-color: $colorSecundario;
-    &:hover{
-        color: $colorPrincipal
-    }
-}
-
-.cardexplore {
-    font-family: 'Poppins';
-    border: 1px solid $colorCard;
-    border-radius: 5px;
-    padding: 10px;
-    .circle {
-        background: $colorToken;
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 5px;
-        .price {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            .spacingBottom {
-                margin-bottom: 20px;
-                .grid-explore {
-                    display: grid;
-                    grid-template-columns: 258px 258px 258px 258px;
-                    grid-gap: 20px;
-                    margin-bottom: 20px;
-                }
-            }
+        .titleDetail {
+            font-size: 70px;
+            font-family: 'Poppins';
+            font-weight: 600;
+            height: 90px;
         }
-    }
-}
 
-.cardexplore {
-    font-family: 'Poppins';
-    border: 1px solid $colorCard;
-    border-radius: 5px;
-    padding: 10px;
-    .textDescription {
-        font-size: 12px;
-        .imgBlog {
-            width: 100%;
-            .grid-blog {
-                display: grid;
-                grid-template-columns: 350px 350px 350px;
-                grid-gap: 20px;
-                margin-bottom: 20px;
-            }
+        .subtitleDetail {
+            font-size: 30px;
+            margin-bottom: 20px;
         }
     }
 }

@@ -1,0 +1,37 @@
+.navegacion {
+    background-color: $colorNavegacion;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        font-family: 'Poppins';
+        font-weight: 600;
+        margin-right: 4%;
+        li {
+            list-style-type: none;
+            a {
+                color: black;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.headerImg {
+    margin: 19px 0px;
+    width: 150px;
+    margin-left: 10px;
+}
+
+.navegacion ul {
+    margin-bottom: unset;
+    padding-left: unset;
+}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    padding: 10px;
+}
