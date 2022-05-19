@@ -89,6 +89,9 @@
 @media (min-width: 320px) and (max-width: 599px) {
     .navegacion {
         flex-direction: column;
+        ul {
+            margin-right: unset !important;
+        }
     }
 
     .grid-blog {
@@ -100,7 +103,7 @@
     }
 
     .menu li {
-        display: flex;
+        display: flex !important;
         flex-direction: column;
         justify-content: center;
         position: relative;
@@ -114,17 +117,12 @@
         margin-bottom: 19px;
     }
 
-    ul {
-        margin-right: 0%;
-        margin-bottom: 19px;
-    }
-
     .image {
         width: 80%;
     }
 
     .titleDetail {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .subtitleDetail {

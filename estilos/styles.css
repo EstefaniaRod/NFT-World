@@ -10,16 +10,14 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center; }
-  .tituloMasSubtitulo .cardDetail {
-    width: 50%; }
-    .tituloMasSubtitulo .cardDetail .titleDetail {
-      font-size: 70px;
-      font-family: 'Poppins';
-      font-weight: 600;
-      height: 90px; }
-    .tituloMasSubtitulo .cardDetail .subtitleDetail {
-      font-size: 30px;
-      margin-bottom: 20px; }
+  .tituloMasSubtitulo .cardDetail .titleDetail {
+    font-size: 60px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    height: 90px; }
+  .tituloMasSubtitulo .cardDetail .subtitleDetail {
+    font-size: 30px;
+    margin-bottom: 20px; }
 
 .explore .grid-explore {
   display: grid;
@@ -187,12 +185,14 @@ html {
 @media (min-width: 320px) and (max-width: 599px) {
   .navegacion {
     flex-direction: column; }
+    .navegacion ul {
+      margin-right: unset !important; }
   .grid-blog {
     grid-template-columns: 350px !important; }
   .headerImg {
     margin-left: 0px; }
   .menu li {
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     justify-content: center;
     position: relative;
@@ -202,13 +202,10 @@ html {
   #login {
     margin: 0px;
     margin-bottom: 19px; }
-  ul {
-    margin-right: 0%;
-    margin-bottom: 19px; }
   .image {
     width: 80%; }
   .titleDetail {
-    font-size: 50px; }
+    font-size: 40px; }
   .subtitleDetail {
     font-size: 25px; }
   .tituloMasSubtitulo {
